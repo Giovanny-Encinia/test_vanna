@@ -1,0 +1,21 @@
+text:
+  - name: question
+    no_index: false
+    no_stem: false
+    sortable: false
+    weight: 1
+    withsuffixtrie: false
+  - name: sql
+    no_index: false
+    no_stem: false
+    sortable: false
+    weight: 1
+    withsuffixtrie: false
+vector:
+  - algorithm: FLAT
+    block_size: 1000
+    datatype: FLOAT64
+    dims: 1536
+    distance_metric: IP
+    initial_cap: 20000
+    name: embedding
